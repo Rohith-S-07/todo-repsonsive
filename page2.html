@@ -8,132 +8,140 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>To Do</title>
 </head>
-
 <body class="grey-bg">
 
+<div class="notshow">
+
 <div class="header">
-    <a href="./page2.html">
     <span id="tasks"> Tasks </span>
 
     <span id="list"> List </span>
-    </a>
 </div>
 
 <div class="newtask">
-    <a href="./page2.html">
     <div id="plus-circle">
         <i class="fa fa-plus-circle" style="font-size:40px; color: #00A5EC"></i>
     </div>
     <div id="addtask">
      Add New Task
     </div>
-    </a>
 </div>
 
 <div class="card-container">
 
     <div class="card">
-        <a href="./tasks/task1.html">
         <div class="div1">
-           Trip to Paris
+            Trip to Paris
         </div>
-        </a>
         <div class="div2">
             <form>
                 <input type="checkbox" checked name="todo" id="check">
-                <label for="todo" class="strikethrough">Visit Church</label>
+                <label for="todo">Visit Church</label>
             </form>
         </div>
         <div class="div3">
             <form>
                 <input type="checkbox" name="todo" id="check">
-                <label for="todo" class="strikethrough">Shopping</label>
+                <label for="todo">Shopping</label>
             </form>
         </div>
     </div>
 
     <div class="card">
-        <a href="./tasks/task2.html">
         <div class="div1">
             My To Do List 
         </div>
-        </a>
         <div class="div2">
             <form>
                 <input type="checkbox" checked name="todo" id="check">
-                <label for="todo" class="strikethrough">Visit Supermarket</label>
+                <label for="todo">Visit Supermarket</label>
             </form>
         </div>
         <div class="div3">
             <form>
                 <input type="checkbox" name="todo" id="check">
-                <label for="todo" class="strikethrough">Buy Vegetables</label>
+                <label for="todo">Buy Vegetables</label>
             </form>
         </div>
     </div>
 
     <div class="card">
-        <a href="./tasks/task3.html">
         <div class="div1">
             Movies I will Watch
         </div>
-        </a>
         <div class="div2">
             <form>
                 <input type="checkbox" checked name="todo" id="check">
-                <label for="todo" class="strikethrough">Stranger Things 4</label>
+                <label for="todo">Stranger Things 4</label>
             </form>
         </div>
         <div class="div3">
             <form>
                 <input type="checkbox" name="todo" id="check">
-                <label for="todo" class="strikethrough">Avengers Endgame</label>
+                <label for="todo">Avengers Endgame</label>
             </form>
         </div>
     </div>
 
     <div class="card">
-        <a href="./tasks/task4.html">
         <div class="div1">
             Daily Morning Routine for...
         </div>
-        </a>
         <div class="div2">
             <form>
                 <input type="checkbox" checked name="todo" id="check">
-                <label for="todo" class="strikethrough">Wake up at 6 AM</label>
+                <label for="todo">Wake up at 6 AM</label>
             </form>
         </div>
         <div class="div3">
             <form>
                 <input type="checkbox" name="todo" id="check">
-                <label for="todo" class="strikethrough">Sleep at 10PM</label>
+                <label for="todo">Sleep at 10PM</label>
             </form>
         </div>
     </div>
 
     <div class="card">
-        <a href="./tasks/task5.html">
         <div class="div1">
             Books to Read
         </div>
-        </a>
         <div class="div2">
             <form>
                 <input type="checkbox" checked name="todo" id="check">
-                <label for="todo" class="strikethrough">Design of Everyday</label>
+                <label for="todo">Design of Everyday</label>
             </form>
         </div>
         <div class="div3">
             <form>
                 <input type="checkbox" name="todo" id="check">
-                <label for="todo" class="strikethrough">Alchemist</label>
+                <label for="todo">Alchemist</label>
             </form>
         </div>
     </div>
 
 </div>
 
+</div>
+
+<!-- HTML for popup  -->
+
+
+<div class="pop-up-box">
+    <div class="pop-up-header">
+    <p id="pop-up-addnew"> Add New Task  </p>
+
+    <a href="./index.html">
+    <div class="pop-up-close">
+     X 
+    </div>
+    </a>
+
+    </div>
+    <textarea class="pop-up-bar"> Learn C++</textarea>
+    <a href="./index.html">
+    <div class="add-button"> +   Add Task</div>
+    </a>
+</div>
 
 </body>
 </html>
