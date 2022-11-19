@@ -129,11 +129,10 @@ input[type=checkbox]:checked + label.strikethrough{
 /* CSS for popup */
 
 .bg-image{
-    background-image: url(../responsive-main-bg.png);
+    background-image: url(../todo-css-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .pop-up-box{
     height:30vh;
@@ -234,6 +233,12 @@ input[type=checkbox]:checked + label.strikethrough{
         padding-top: 18px;
         padding-left: 21px;
         font-size: 17px;
+    }
+
+    .bg-image{
+        background-image: url(../responsive-main-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
 
