@@ -5,9 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.grey-bg{
-    background-color: rgba(243, 243, 243, 0.856);
-}
 
 a{
     text-decoration: none;
@@ -150,8 +147,10 @@ input[type=checkbox]:checked + label.strikethrough{
 
 /* CSS for popup */
 
-.notshow{
-    filter: blur(3px);
+.bg-image{
+    background-image: url(../responsive-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pop-up-box{

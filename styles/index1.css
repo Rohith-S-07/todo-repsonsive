@@ -9,9 +9,6 @@ a{
     text-decoration: none;
 }
 
-.grey-bg{
-    background-color: rgba(243, 243, 243, 0.856);
-}
 
 
 .header{
@@ -131,10 +128,12 @@ input[type=checkbox]:checked + label.strikethrough{
 
 /* CSS for popup */
 
-
-.notshow{
-    filter: blur(3px);
+.bg-image{
+    background-image: url(../responsive-main-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .pop-up-box{
     height:30vh;
